@@ -1,0 +1,11 @@
+os: linux
+dist: xenial
+language: node_js
+node_js:
+  - 12.13.0
+script:
+  - npm run lint
+  - npm run test:coveralls
+  - npm run semantic-release
+notifications:
+  email: false
