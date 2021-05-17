@@ -5,6 +5,15 @@
 
 A boilerplate for standalone lib published to npm.
 
+# Before first commit
+
+Update following in `.git/hooks/prepare-commit-msg.sh`
+
+```sh
+#!/bin/bash
+exec < /dev/tty && node_modules/.bin/cz --hook || true
+```
+
 # License
 
 MIT

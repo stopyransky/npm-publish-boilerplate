@@ -1,6 +1,6 @@
 {
   "name": "npm-publish-boilerplate",
-  "version": "2.1.0",
+  "version": "0.0.0",
   "license": "MIT",
   "author": "Karol Stopyra",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/stopyransky/npm-publish-boilerplate.git"
   },
   "homepage": "https://github.com/stopyransky/npm-publish-boilerplate",
-  "description": "A set of custom React hooks",
+  "description": "Boilerplate for npm publish",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.esm.js",
   "types": "dist/index.d.ts",
@@ -51,7 +51,7 @@
     "@typescript-eslint/parser": "4.4.1",
     "babel-core": "6.26.3",
     "babel-jest": "26.5.2",
-    "commitizen": "4.2.3",
+    "commitizen": "4.2.4",
     "coveralls": "3.1.0",
     "cz-conventional-changelog": "3.2.0",
     "eslint": "^7.10.0",
