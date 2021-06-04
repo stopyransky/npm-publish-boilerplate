@@ -6,9 +6,19 @@
 
 A boilerplate for standalone lib published to npm.
 
+# Features
+
+- semantic release versioning and automated changelog
+- commitizen-friendly commits
+- typescript eslint
+- auto lint before build
+- unit tests with jest
+- coveralls test coverage report
+- cjs, esm and umd builds
+
 # Before first commit
 
-## Update following in `.git/hooks/prepare-commit-msg.sh`
+## Update `.git/hooks/prepare-commit-msg.sh`
 
 ```sh
 #!/bin/bash
@@ -25,7 +35,11 @@ GH_TOKEN
 
 NPM_TOKEN
 
-COVERALLS_REPO_TOKEN
+COVERALLS_REPO_TOKEN (optional)
+
+# Useful links
+
+https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md#authentication
 
 # License
 

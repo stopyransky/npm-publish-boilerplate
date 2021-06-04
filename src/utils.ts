@@ -12,7 +12,7 @@ export function updateObject<T>(object: T, key: string, value: unknown): T {
   }
   // eslint-disable-next-line no-console
   console.error(
-    `(fh-hooks) updateObject: Unrecognized property name: '${key}'. State was not modified.`
+    `updateObject: Unrecognized property name: '${key}'. State was not modified.`
   );
   return object;
 }
