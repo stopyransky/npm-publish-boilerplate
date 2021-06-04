@@ -7,12 +7,23 @@ A boilerplate for standalone lib published to npm.
 
 # Before first commit
 
-Update following in `.git/hooks/prepare-commit-msg.sh`
+### Update following in `.git/hooks/prepare-commit-msg.sh`
 
 ```sh
 #!/bin/bash
 exec < /dev/tty && node_modules/.bin/cz --hook || true
 ```
+
+### Coveralls.io
+
+Enable the repo in coveralls.io
+Coveralls.io
+
+### add env variables to travis ci
+
+GH_TOKEN
+NPM_TOKEN
+COVERALLS_REPO_TOKEN
 
 # License
 
