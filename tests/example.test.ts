@@ -1,5 +1,5 @@
-import Example from '../src/example';
+import { helloWorld } from '../src/example';
 
 test('it works', () => {
-  expect(Example.helloWorld()).toEqual(true);
+  expect(helloWorld()).toEqual(true);
 });

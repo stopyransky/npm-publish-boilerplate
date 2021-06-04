@@ -1,6 +1,6 @@
 {
   "name": "npm-publish-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "license": "MIT",
   "author": "Karol Stopyra",
   "repository": {
@@ -68,7 +68,7 @@
     "rollup": "2.30.0",
     "rollup-plugin-terser": "7.0.2",
     "rollup-plugin-typescript2": "0.27.3",
-    "semantic-release": "^17.2.1",
+    "semantic-release": "^17.4.3",
     "ts-jest": "26.4.1",
     "typescript": "^4.0.3"
   },

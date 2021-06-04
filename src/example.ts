@@ -4,6 +4,4 @@ function helloWorld(): boolean {
   return true;
 }
 
-export default {
-  helloWorld,
-};
+export { helloWorld };
