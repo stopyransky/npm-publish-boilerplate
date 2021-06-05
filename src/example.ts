@@ -17,4 +17,4 @@ function helloWorld(): boolean {
   return true;
 }
 
-export { Example, helloWorld };
+export { Example, helloWorld, IParams };

@@ -37,6 +37,10 @@ NPM_TOKEN
 
 COVERALLS_REPO_TOKEN (optional)
 
+## Change rollup namespace
+
+edit `rollup.config.js` and change name for the global namaespace in umd bundle from MYLIB to anything else
+
 # Useful links
 
 https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md#authentication

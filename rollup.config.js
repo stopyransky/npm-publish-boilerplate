@@ -23,7 +23,7 @@ export default {
     {
       file: 'dist/bundle.umd.js',
       format: 'umd',
-      name: 'FH',
+      name: 'MYLIB',
       globals: {
         react: 'React',
         'react-dom': 'ReactDOM',
@@ -36,9 +36,7 @@ export default {
       exclude: 'node_modules/**',
     }),
     resolve(),
-    commonjs({
-      namedExports: { react: ['createElement', 'Component'] },
-    }),
+    commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
     production && terser({ format: { comments: false } }),
   ],
