@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/stopyransky/npm-publish-boilerplate/compare/v1.0.0...v1.1.0) (2021-06-05)
+
+
+### Features
+
+* feature test ([acfe1a9](https://github.com/stopyransky/npm-publish-boilerplate/commit/acfe1a9c98db210cc557f95053b56d997df64c3b))
+
 # 1.0.0 (2021-06-04)
 
 
