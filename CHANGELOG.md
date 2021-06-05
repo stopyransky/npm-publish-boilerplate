@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.0.0](https://github.com/stopyransky/npm-publish-boilerplate/compare/v2.0.0...v3.0.0) (2021-06-05)
+
+
+### chore
+
+* bump ([278e771](https://github.com/stopyransky/npm-publish-boilerplate/commit/278e7713b646dab20a725d85e6756e968fab360e))
+
+
+### BREAKING CHANGES
+
+* version bump to update npm
+
 # [2.0.0](https://github.com/stopyransky/npm-publish-boilerplate/compare/v1.1.0...v2.0.0) (2021-06-05)
 
 
