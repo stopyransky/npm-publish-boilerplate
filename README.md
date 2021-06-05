@@ -6,7 +6,7 @@
 
 A boilerplate for standalone lib published to npm.
 
-# Features
+## Features
 
 - semantic release versioning and automated changelog
 - commitizen-friendly commits
@@ -29,7 +29,7 @@ exec < /dev/tty && node_modules/.bin/cz --hook || true
 
 Enable the repo in coveralls.io
 
-## Add env variables to travis ci
+## Add env variables to Travis CI
 
 GH_TOKEN
 
